@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merienda:wght@300..900&family=Sekuya&family=Shadows+Into+Light+Two&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: cadetblue;
+	align-items: center;
+	height: 60px;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	gap: 15px;
+}
+nav ul li {
+	list-style: none;
+}
+
+.logo {
+	font-size: 25px;
+	font-family: 'Merienda', cursive;
+}
