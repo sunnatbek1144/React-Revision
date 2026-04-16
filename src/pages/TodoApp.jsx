@@ -1,7 +1,9 @@
 function TodoApp() {
 	return (
 		<>
-			<h1>To do App</h1>
+			<div className='todApp-container'>
+				<h1>To do App</h1>
+			</div>
 		</>
 	)
 }

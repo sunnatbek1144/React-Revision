@@ -1,7 +1,9 @@
 function Home() {
 	return (
 		<>
-			<h1>Home</h1>
+			<div className='home-container'>
+				<h1 className='name'>Home</h1>
+			</div>
 		</>
 	)
 }

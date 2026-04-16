@@ -1,12 +1,12 @@
 import { Link } from 'react-router'
-import Projects from '../pages/Projects'
+// import Projects from '../pages/Projects'
 
 function Header() {
 	return (
 		<>
 			<nav>
 				<div className='logo'>Sunnatbek</div>
-				<ul>
+				<ul className='Navbar-link'>
 					<li>
 						<Link to={'/'}>Home</Link>
 					</li>

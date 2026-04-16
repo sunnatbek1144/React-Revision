@@ -1,8 +1,10 @@
 import { Link } from 'react-router'
+
 function Projects() {
 	return (
 		<>
-			<div className='projects'>
+			<div className='projects-container'>
+				<h1 className='name'>Projects</h1>
 				<ul>
 					<li>
 						<Link to={'/projects/stopWatch'}>1. StopWatch</Link>

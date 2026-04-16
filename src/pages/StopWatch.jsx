@@ -1,7 +1,7 @@
 function StopWatch() {
 	return (
 		<>
-			<div className='StopWatch'>
+			<div className='StopWatch-container'>
 				<h1>Stop Watch</h1>
 				<p>00:00:00</p>
 				<button>Start</button>
