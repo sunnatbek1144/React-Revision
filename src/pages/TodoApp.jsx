@@ -1,10 +1,41 @@
+// import { Link } from "react-router";
+
 function TodoApp() {
 	return (
 		<>
-			<div className='todApp-container'>
-				<h1>To do App</h1>
+			<h1>2. TodoApp</h1>
+			<div className='input'>
+				<input type='text' placeholder='Add a task' />
+				<button>Add</button>
+			</div>
+			<div className='Board'>
+				<div className='BoardBox'>
+					<h1>Sunnatbek Isroilov</h1>
+					<button>Delete</button>
+				</div>
+				<div className='BoardBox'>
+					<h1>Sunnatbek Isroilov</h1>
+					<button>Delete</button>
+				</div>
+				<div className='BoardBox'>
+					<h1>Sunnatbek Isroilov</h1>
+					<button>Delete</button>
+				</div>
+				<div className='BoardBox'>
+					<h1>Sunnatbek Isroilov</h1>
+					<button>Delete</button>
+				</div>
+				<div className='BoardBox'>
+					<h1>Sunnatbek Isroilov</h1>
+					<button>Delete</button>
+				</div>
+				<div className='BoardBox'>
+					<h1>Sunnatbek Isroilov</h1>
+					<button>Delete</button>
+				</div>
 			</div>
 		</>
 	)
 }
+
 export default TodoApp

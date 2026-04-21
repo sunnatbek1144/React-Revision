@@ -5,7 +5,7 @@ function Header() {
 	return (
 		<>
 			<nav>
-				<div className='logo'>Sunnatbek</div>
+				<div className='logo'>SUNNATBEK PROJECTS</div>
 				<ul className='Navbar-link'>
 					<li>
 						<Link to={'/'}>Home</Link>
